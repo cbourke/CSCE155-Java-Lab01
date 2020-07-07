@@ -1,8 +1,9 @@
 /**
- * Author: Chris Bourke (cbourke@cse.unl.edu)
+ * Author: Chris Bourke (cbourke@cse.unl.edu) 
  * Date: xx/xx/20xx
  * 
  * A simple "Hello World!" program in Java
+ * 
  * @author cbourke
  *
  */
