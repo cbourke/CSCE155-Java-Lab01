@@ -1,3 +1,5 @@
+package unl.soc;
+
 /**
  * Author: Chris Bourke (cbourke@cse.unl.edu) 
  * Date: xx/xx/20xx
