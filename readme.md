@@ -130,10 +130,11 @@ To do this, we'll walk you through how to use Eclipse, a popular (and
 3. Close the Welcome screen, and create a new project:  
   a. Select:  `File > New > Project`  
   b. Select `Java Project` when prompted by the `New Project Wizard`; click `Next`  
-  c. Enter a name for your project (`Lab01`); click Finish  
-  d. Open the `Lab01` folder in the `Package Explorer View` and find the `src` folder  
-  e. Right-click on the `src` folder and select `New Class` and name it `Hello`  
-  f. This should open a new source code editor.  Make your program
+  c. Enter a name for your project (`Lab01`)  
+  d. Be sure that the "Create module-info.java" is **unchecked**; click Finish  
+  e. Open the `Lab01` folder in the `Package Explorer View` and find the `src` folder  
+  f. Right-click on the `src` folder and select `New Class` and name it `Hello`  
+  g. This should open a new source code editor.  Make your program
   look like the following and save it.
 
 ```java
@@ -224,7 +225,7 @@ and "reset" your password (even if you never initially set one).  Be
 sure to use your huskers email or whatever primary email is associated
 with your canvas profile.
 
-To handin and grade your lab, do the following.
+To hand in and grade your lab, do the following.
 
 1. Login to <https://codepost.io>.  It should immediately take you to the
    assignment submission page:
@@ -235,7 +236,8 @@ To handin and grade your lab, do the following.
 
 ![Codepost.io Submission](img/codepost02-submission-java.png)
 
-Click "Upload files" and select the `Hello.java` source file you downloaded.
+Click "Upload files" and select the `Hello.java` source file from directory
+where your Eclipse project is located.
 Then click ![Submit Button](img/codepost03-button.png)
 
 4. You should see something like the following:
