@@ -108,13 +108,11 @@ Let's get started. In order to develop programs in Java you'll need:
 To do this, we'll walk you through how to use Eclipse, a popular (and
 *free*) IDE (Integrated Development Environment).
 
-1. Go to Oracle's website and download and install the Java Development
-  Kit (JDK).  You may already have "Java" installed but likely it is the
-  *Java Runtime Environment* (JRE) that allows you to run Java programs.  
-  The Dev Kit allows you to *develop* programs.  You should install the
-  latest version:
-
-  <https://www.oracle.com/java/technologies/downloads/>
+1. You'll first need a Java Development Kit (JDK).  You may already 
+   have "Java" installed but likely it is the *Java Runtime Environment* 
+   (JRE) that allows you to *run* Java programs.  The Dev Kit allows you 
+   to *develop* (write) programs.  We recommend installing Amazon's Corretto
+   JDK: <https://aws.amazon.com/corretto/>
 
 2. Got to [Eclipse.org](https://www.eclipse.org/) and download/install
   the Eclipse IDE.  It is perfectly fine to use an alternative
