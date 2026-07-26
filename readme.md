@@ -212,60 +212,58 @@ on [GitHub](https://github.com) and you must check it out.
 
 Nearly all of your assignments (labs, hacks, exams) will include a
 programming portion that will require you to hand in source files
-for graders to compile and evaluate.  To do this, we use a web-based
-assessment app called codepost.io (<https://codepost.io>).  
+for graders to compile and evaluate.  To do this, we use Gradescope which is integrated with Canvas.
 
-You should have received an invitation to this website from your
-instructor through your email account (typically your `@huskers.unl.edu`
-email or whatever email you have associated with on Canvas).  If
-you have access, great.  If not, go to <https://codepost.io/forgot-password>
-and "reset" your password (even if you never initially set one).  Be
-sure to use your huskers email or whatever primary email is associated
-with your canvas profile.
+To handin and grade your lab, do the following.
 
-To hand in and grade your lab, do the following.
+1. Login to Canvas and then go to the **Assignments** tab (direct links
+   are also provided on the front page).
 
-1. Login to <https://codepost.io>.  It should immediately take you to the
-   assignment submission page:
+2. Click on the appropriate assignment.
 
-![Codepost.io Assignments](img/codepost01-assignments.png)
+3. You should see something like the following:
 
-3. Click "Upload Assignment" which will bring up a dialog box:
+![Gradescope Submit](img/gradescope-submit.png)
 
-![Codepost.io Submission](img/codepost02-submission-java.png)
+4. As it says, you can drag and drop multiple files or click the **Drag & Drop**
+   button and select file(s).  Do so with the `Hello.java` file.  Then click
+   **Upload**:
 
-Click "Upload files" and select the `Hello.java` source file from directory
-where your Eclipse project is located.
-Then click ![Submit Button](img/codepost03-button.png)
+![Gradescope Submit](img/gradescope-submit-selected.png)
 
-4. You should see something like the following:
+5. While upload the grader will run in the background, you can close the
+   popup:
 
-![Codepost.io Success](img/codepost04-success.png)
+![Gradescope Submit](img/gradescope-submitted.png)
 
-***HOWEVER*** this does not mean that your program(s) worked, only that
-they were uploaded.  You ***still need to view the results!!!***
+6. What for the grader to run fully (this can take up to a minute) and view
+   the results.  If everything was successful you should see something like
+   the following:
 
-5. Click on ![View Tests Button](img/codepost05-testButton.png) to
-view the test results which will give you more details.  If any
-test(s) failed, you should see:
+![Gradescope Submit](img/gradescope-success.png)
 
-![Codepost.io Fail View](img/codepost07-failResults.png)
+7. If it was not successful, you might see something like this:
 
-You can click on the + button to see more details.  However, if
-all tests passed, you should see something like this:
+![Gradescope Submit](img/gradescope-fail.png)
 
-![Codepost.io Success View](img/codepost06-successResults.png)
+   In this case, I misspelled `School` as `Skool`.  That's okay, you can fix
+   your submission and resubmit as many times as you want up until the due
+   date.  Click the **Resubmit** button at the bottom right and repeat
+   the process.
 
 Some things to understand about the grading process:
 
+ * The grades displayed may not be the final grade you earn.  Human graders
+   will also assess hacks and exams for other elements.
+ * Final grades will only post to Canvas after all grading has been completed.
  * If there are problems or errors with your program(s),
    you should fix/debug them and repeat the handin/grading process.
 	 You can do this as many times as you like up until the due date.  
  * Some programs and assignments *may* require the output to be *exact*
    including any upper/lower case text and numbers accurate to a
-   certain number of decimal points
- * Some programs and assignments may only require part of the output to be correct and may
-   ignore other formatting (spaces for example).
+   certain number of decimal points.
+ * Some programs and assignments may only require part of the output
+   to be correct and may ignore other formatting (spaces for example).
  * Some programs and assignments may need to be manually examined by
    graders to award points.
  * Some programs and assignments have more
